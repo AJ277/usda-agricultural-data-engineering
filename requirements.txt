@@ -1,0 +1,4 @@
+pyspark==4.0.1
+delta-spark==4.0.1
+matplotlib>=3.9,<4
+pytest>=8,<10

@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+output/
+data/raw/*.csv
+.sparkStaging/
+metastore_db/
+derby.log
+*.log
+
+# Local environments and caches
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Generated Spark and Delta Lake output
+output/
+spark-warehouse/
+metastore_db/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db

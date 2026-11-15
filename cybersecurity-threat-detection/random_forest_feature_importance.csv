@@ -1,0 +1,9 @@
+feature,importance
+failed_login_attempts,0.4430391105744899
+failed_login_rate,0.3439223709825964
+bytes_received,0.1124451016105006
+duration_seconds,0.07052054427163591
+send_receive_ratio,0.01720782308742752
+destination_port,0.011275621016508924
+total_bytes,0.0015659631566358615
+bytes_sent,2.3465300204764198e-05

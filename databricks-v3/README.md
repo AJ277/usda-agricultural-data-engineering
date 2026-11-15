@@ -82,7 +82,7 @@ The functioning notebooks were developed in the Databricks workspace:
 - `USDA_Delta_Merge_Lab`: interactive tests, recovery demonstrations and SQL monitoring views.
 - Published dashboard: **USDA Pipeline V3 Monitoring**, page **Pipeline Overview**, with five KPI counters and a batch processing/status table.
 
-**Actual notebook exports and redacted dashboard images are not included in this documentation-only GitHub change.** Follow [export and reproduction guidance](docs/EXPORT_GUIDE.md) to add genuine exports. This repository does **not** claim the Databricks V3 implementation has been independently reproduced from the GitHub files.
+A cleaned [reusable functions notebook](notebooks/USDA_Pipeline_Functions.ipynb) is included. The historical lab notebook and redacted dashboard images are **not yet committed**. Follow [export and reproduction guidance](docs/EXPORT_GUIDE.md) to add those materials. The V3 implementation has **not been independently executed** from the GitHub files.
 
 ## Limitations
 

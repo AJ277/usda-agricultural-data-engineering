@@ -59,6 +59,12 @@ Counts were observed during the interactive training lab and are **not** perform
 
 See [technical report](docs/TECHNICAL_REPORT.md) and [test evidence](docs/TEST_EVIDENCE.md).
 
+## Published dashboard link
+
+[Open the USDA Pipeline V3 Monitoring dashboard in Databricks](https://dbc-962cc00d-8af5.cloud.databricks.com/dashboardsv3/01f1dfa549e31a17aead54015eafd0a7/published?o=7474655595869060)
+
+The dashboard link was supplied by the project owner. **External or anonymous access has not been verified**; the Databricks workspace may require sign-in and the viewer's own data permissions. A published dashboard URL is not proof that the public can view it. Dashboard screenshots should be redacted before being committed to this public GitHub repository.
+
 ## Data assets
 
 All Delta tables and views are in `workspace.usda_training`:

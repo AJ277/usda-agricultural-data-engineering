@@ -1,0 +1,17 @@
+Metric,Value
+Project,USDA Corn Yield Prediction
+Data Source,USDA NASS historical corn yields
+Historical Years,2020-2025
+Historical Records,246
+States,41
+Initial ML Records,205
+Enhanced Feature Records,164
+Validation Years,"2023, 2024"
+Features,"['previous_year_yield', 'two_year_average']"
+Best Development Model,Linear Regression
+Best Average Development MAE,15.35
+2024 Validation MAE,16.68
+2024 Validation RMSE,20.96
+2024 Validation R2,0.6939
+MLflow Tracking,Enabled
+Final Independent Test,Not performed

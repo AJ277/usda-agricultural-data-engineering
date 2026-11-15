@@ -9,7 +9,7 @@
 
 ## What still must be exported from your Databricks workspace
 
-1. **`USDA_Pipeline_Functions`**: export as **Source File (.py)**, ensuring all 14 functions, imports and helper functions are included. Remove test execution code that writes to tables.
+1. **`USDA_Pipeline_Functions`**: a cleaned 15-definition notebook (14 required functions plus the `validate_usda_batch` helper) has now been committed to `notebooks/USDA_Pipeline_Functions.ipynb`. Original Databricks notebook was supplied and inspected; validation of runtime behavior remains in the user's Databricks environment.
 2. **`USDA_Delta_Merge_Lab`**: export as **Databricks notebook source (.py)** or **.ipynb**. Review cells to separate reproducible setup and read-only checks from historical data-modifying training exercises.
 3. **Dashboard evidence**: capture a screenshot of the published **USDA Pipeline V3 Monitoring → Pipeline Overview** page with all five KPI counters and the batch table visible. Redact workspace identities, URLs, user initials, email addresses, workspace IDs and any secrets.
 4. **Optional detailed test output**: capture sanitized screenshots of `SKIPPED_COMPLETED`, `BATCH SOURCE MISMATCH`, `INVESTIGATE_PARTIAL` and successful controlled recovery.
@@ -33,7 +33,7 @@ databricks-v3/
     dashboard_overview.png
 ```
 
-The `notebooks/` and `figures/` entries above are **planned additions, not files currently committed**.
+The cleaned `notebooks/USDA_Pipeline_Functions.ipynb` is committed. The `notebooks/USDA_Delta_Merge_Lab.py` and `figures/dashboard_overview.png` paths remain planned additions. A non-executable archival lab export was prepared separately for owner review before public upload.
 
 ## Reproduction considerations
 

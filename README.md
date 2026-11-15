@@ -177,6 +177,20 @@ capacity, and financial institution exposures.
 - The project demonstrates a Spark and Delta Lake workflow on a
   modest dataset; it is not a large-scale performance benchmark.
 
+
+## Databricks V3 incremental pipeline extension
+
+A separate Databricks Free Edition training lab demonstrates incremental Delta Lake MERGE, SHA-256 batch-source integrity checks, duplicate-aware quarantine and accounting, completion auditing, staged recovery of an interrupted batch, and a published monitoring dashboard.
+
+**Training data disclosure:** the extension's 2026 state-yield observations are **synthetic**, not official USDA statistics; they are separate from the historical USDA NASS Quick Stats analysis above.
+
+- [Databricks V3 project overview](databricks-v3/README.md)
+- [V3 technical report](databricks-v3/docs/TECHNICAL_REPORT.md)
+- [Observed test evidence](databricks-v3/docs/TEST_EVIDENCE.md)
+- [Notebook export checklist](databricks-v3/docs/EXPORT_GUIDE.md)
+
+The exported Databricks notebooks and redacted dashboard screenshots are planned follow-on additions and are not yet in this repository.
+
 ## Author
 
 Andrew Klein

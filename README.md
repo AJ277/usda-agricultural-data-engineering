@@ -3,6 +3,49 @@
 A reproducible agricultural data engineering and analytics project
 using Python, PySpark, Spark SQL, and Delta Lake.
 
+
+## Portfolio Projects
+
+This repository contains three independent educational projects demonstrating agricultural data engineering, Databricks pipeline development, and machine learning.
+
+### 1. USDA Agricultural Data Engineering
+
+**Technologies:** Python, PySpark, Spark SQL, Delta Lake
+
+- Processes 252 historical USDA NASS corn-yield observations.
+- Implements Bronze-Silver-Gold data architecture.
+- Includes data validation, statistical analysis, visualizations, and automated testing.
+
+The original data-engineering project is documented below.
+
+### 2. Databricks V3 Incremental Pipeline
+
+**Technologies:** Databricks, PySpark, Delta Lake, SQL
+
+- Implements incremental Delta Lake MERGE operations.
+- Uses SHA-256 source fingerprint verification.
+- Demonstrates quarantine processing, batch auditing, recovery testing, and monitoring dashboards.
+- Uses clearly identified synthetic 2026 observations for training exercises.
+
+[View Databricks V3 Project](databricks-v3/README.md)
+
+### 3. USDA Corn Yield Machine Learning
+
+**Technologies:** Python, scikit-learn, Databricks, MLflow
+
+- Analyzes 246 historical USDA corn-yield observations from 2020-2025.
+- Compares Linear Regression, Random Forest, and Gradient Boosting.
+- Implements historical feature engineering and chronological validation.
+- Performs residual analysis and MLflow experiment tracking.
+- Achieved an average development-validation MAE of 15.35 bushels per acre using two-feature Linear Regression across 2023-2024.
+
+[View Machine Learning Project](machine-learning/README.md)
+
+**Project scope:** These are independent educational portfolio projects, not professional IT employment or production forecasting systems.
+
+---
+  
+
 ## Project Overview
 
 This project processes USDA National Agricultural Statistics Service

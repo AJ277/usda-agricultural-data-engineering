@@ -98,5 +98,6 @@ This is a sequential training proof of concept, not a production-safe distribute
 
 - [Technical report](docs/TECHNICAL_REPORT.md)
 - [Verified test evidence](docs/TEST_EVIDENCE.md)
+- [Dashboard evidence and interpretation](docs/DASHBOARD_EVIDENCE.md)
 - [Notebook export and portfolio checklist](docs/EXPORT_GUIDE.md)
 - [Monitoring view SQL](sql/monitoring_views.sql)

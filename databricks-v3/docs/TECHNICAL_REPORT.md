@@ -59,7 +59,7 @@ Detailed evidence: [TEST_EVIDENCE.md](TEST_EVIDENCE.md).
 
 The Databricks implementation uses two notebooks in the same workspace folder: `USDA_Pipeline_Functions` and `USDA_Delta_Merge_Lab`. In the lab notebook, `%run ./USDA_Pipeline_Functions` restored all fourteen function definitions; the callability check reported no missing functions.
 
-The notebook exports have **not yet** been supplied to this GitHub change. Reproduction requires those exports, the Databricks table schemas, proper workspace permissions and deliberate initialization in a **fresh isolated schema**. **Do not rerun historical initialization, quarantine writes, or processing cells against the validated lab tables.**
+The cleaned functions notebook is now included under `notebooks/USDA_Pipeline_Functions.ipynb`; the full training lab archive has not yet been committed. Reproduction requires those exports, the Databricks table schemas, proper workspace permissions and deliberate initialization in a **fresh isolated schema**. **Do not rerun historical initialization, quarantine writes, or processing cells against the validated lab tables.**
 
 ## 7. Limitations and next steps
 
